@@ -32,7 +32,7 @@ body{
     right: 600px;
     perspective: 800px;
 }
-.outside,.outside{
+.outside,.inside{
     width: 100%;
     height: 100%;
     border-radius: 20px;

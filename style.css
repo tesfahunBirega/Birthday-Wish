@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 0 0.8rem;
+    margin-bottom: 20px; /* Added margin-bottom for gap */
 
     transform: rotateY(-230deg) rotateX(20deg);
     position: absolute;
@@ -31,10 +32,11 @@
 }
 
 .frames:nth-child(2) {
+    top: -320px; /* Adjusted top position for the second frame */
     background-color: goldenrod;
 }
 
 .frames:nth-child(3) {
-    top: 120px;
+    top: -480px; /* Adjusted top position for the third frame */
     background-color: burlywood;
 }
